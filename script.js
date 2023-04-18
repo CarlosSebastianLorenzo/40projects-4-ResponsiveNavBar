@@ -11,4 +11,5 @@ $close.addEventListener("click", function(){
     $close.classList.toggle("none");
     $bars.classList.toggle("none");
     $links.style.display = "none";
+    $links.removeAttribute("style");
 })
